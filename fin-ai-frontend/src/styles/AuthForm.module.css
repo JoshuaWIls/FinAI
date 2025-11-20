@@ -1,0 +1,104 @@
+/*/Users/jwils/Developer/code/7th sem project Finance AI/financialai/fin-ai-frontend/src/styles/AuthForm.module.css */
+.authContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f2f7 0%, #c1e4f4 100%); /* Softer, professional gradient */
+  padding: 20px;
+}
+
+.authCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 450px; /* Slightly wider for better forms */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.authCard:hover {
+  transform: translateY(-5px);
+}
+
+.companyLogo {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0070f3; /* Brand color */
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+
+.formTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.errorMessage {
+  color: #e74c3c; /* Red for errors */
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.successMessage {
+  color: #27ae60; /* Green for success */
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.inputField {
+  width: calc(100% - 20px); /* Account for padding */
+  padding: 12px 10px;
+  margin-bottom: 18px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.inputField:focus {
+  border-color: #0070f3;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 14px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: #005bb5;
+  transform: translateY(-2px);
+}
+
+.switchText {
+  margin-top: 25px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.switchLink {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease-in-out;
+}
+
+.switchLink:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}

@@ -1,0 +1,121 @@
+/* fin-ai-frontend/src/styles/RiskAnalyser.module.css */
+.container {
+  padding: 3rem 20px;
+  margin-top: 100px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0070f3;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.inputField {
+  flex-grow: 1;
+  padding: 15px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+
+.submitButton {
+  padding: 15px 30px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #005bb5;
+}
+
+.errorMessage {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resultsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.riskScoreCard {
+  grid-column: 1 / -1;
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.riskTitle {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.riskLevel {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.riskLevelText {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.score {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Risk Color Classes */
+.low { background-color: #27ae60; }
+.moderate { background-color: #f39c12; }
+.high { background-color: #e67e22; }
+.veryHigh { background-color: #c0392b; }
+
+.detailsCard, .suggestionCard {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.cardTitle {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+
+.suggestionList {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestionItem {
+  padding: 10px 0;
+  border-bottom: 1px dashed #f0f0f0;
+}
