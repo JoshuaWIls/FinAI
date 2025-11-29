@@ -18,7 +18,7 @@ FinAI is a project born out of a passion for finance and technology. It's built 
 -   **🤖 AI Chatbot:** Ask anything from "What is a P/E ratio?" to complex market queries.
 -   **📈 Stock Prediction:** A machine learning model to forecast stock price movements.
 -   **⚠️ Risk Analyser:** Evaluate the risk associated with different stocks.
--   **📰 News Feed & Sentiment:** Get the latest financial news and understand the market's mood.
+-   **📰 News Feed & Sentiment:** Get the latest financial news and understand the market's mood using Ollam instruct.
 -   **📊 Live Stock Data:** Real-time and historical data at your fingertips.
 -   **🔐 Secure User Accounts:** Your personal data and portfolio are safe with us.
 
